@@ -53,3 +53,8 @@ function digits(input){
   var digits = /[^0-9]/;
   input.value = input.value.replace(digits, "");
 }
+
+function digits(input){
+  var digits = /[^0-9]/;
+  input.value = input.value.replace(digits, "");
+}
