@@ -39,4 +39,4 @@ You should start by :
 |     |      |
 
 ## License
-> MIT License & ©2020 cleoworks
+> MIT License & ©2020 cleo
