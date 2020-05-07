@@ -35,8 +35,8 @@ You should start by :
 | Outputs |  Description |
 | :---         |          ---: |
 | Day of birth  | The day of the week that the user was born ``eg Monday`` |
-| Akan name    |  The corresponding Akan name for the user ``eg KwakuS``    |
+| Akan name    |  The corresponding Akan name for the user ``eg Kwaku``    |
 |     |      |
 
 ## License
-> MIT License &copy 2019 cleo
+> MIT License & ©2020 cleoworks
