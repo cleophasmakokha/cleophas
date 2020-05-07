@@ -167,3 +167,11 @@ function getName(){
       }
     }
 }
+
+function clearForm(){
+  document.getElementById("form").reset();
+}
+
+function clearResult(){
+  document.getElementById("answer").reset();
+}
