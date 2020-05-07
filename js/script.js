@@ -106,3 +106,33 @@ function getName(){
   var day = (((cc/4)-2*cc-1)+((5*yy/4))+((26*(mm+1)/10))+dd)%7;
   var akanDay = days[day.toFixed()];
   var gender = parseInt(document.getElementById("gender").value);
+  if (gender == 2) {
+    if (akanDay === 'Sunday') {
+      document.getElementById("output").value = "Born on Sunday: Your Akan Name would be: " + akanMale[0];
+      return true;
+    }
+    else if (akanDay === 'Monday') {
+      document.getElementById("output").value = "Born on Monday: Your Akan Name would be: " + akanMale[1];
+      return true;
+    }
+    else if (akanDay === 'Tuesday') {
+      document.getElementById("output").value = "Born on Tuesday: Your Akan Name would be: " + akanMale[2];
+      return true;
+    }
+    else if (akanDay === 'Wednesday') {
+      document.getElementById("output").value = "Born on Wednesday: Your Akan Name would be: " + akanMale[3];
+      return true;
+    }
+    else if (akanDay === 'Thursday') {
+      document.getElementById("output").value = "Born on Thursday: Your Akan Name would be: " + akanMale[4];
+      return true;
+    }
+    else if (akanDay === 'Friday') {
+      document.getElementById("output").value = "Born on Friday: Your Akan Name would be: " + akanMale[5];
+      return true;
+    }
+    else {
+      document.getElementById("output").value = "Born on Saturday: Your Akan Name would be: " + akanMale[6];
+      return true;
+    }
+  }
