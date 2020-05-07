@@ -40,3 +40,11 @@ function giveMonth() {
     return false;
   }
 }
+
+function giveDay() {
+  var day = document.getElementById("dayBorn").value;
+  if (day == "") {
+    alert("Day must be filled out");
+    return false;
+  }
+}
