@@ -24,3 +24,11 @@ function giveCentury() {
     return false;
   }
 }
+
+function giveYear() {
+  var year = document.getElementById("yearBorn").value;
+  if (year == "") {
+    alert("Year must be filled out");
+    return false;
+  }
+}
