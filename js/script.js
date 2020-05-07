@@ -66,3 +66,14 @@ function validYear(){
     return false;
   }
 }
+
+function validDay(){
+  var thirtyOneMonths = [1, 3, 5, 7, 9, 10, 12];
+  var monthNumber = parseInt(document.getElementById("monthBorn").value);
+  var dayNumber = parseInt(document.getElementById("dayBorn").value);
+  var yearNumber = parseInt(document.getElementById("yearBorn").value);
+  var yearNumber = parseInt(document.getElementById("centuryBorn").value);
+  var a = yearNumber % 100;
+  var b = yearNumber % 400;
+  var c = yearNumber % 4;
+  var d = thirtyOneMonths.includes(monthNumber);
