@@ -58,3 +58,11 @@ function digits(input){
   var digits = /[^0-9]/;
   input.value = input.value.replace(digits, "");
 }
+
+function validYear(){
+  var year = document.getElementById('yearBorn').value;
+  if (year < 1899 || year > currentYear) {
+    alert("Invalid Year");
+    return false;
+  }
+}
