@@ -4,3 +4,10 @@
 .container-fluid {
 	font-style: Lato;
 }
+main {
+	font-family: Lato, sans-serif, "Gill Sans", "Gill Sans MT", Calibri,
+		"Trebuchet MS", sans-serif;
+}
+body {
+  background-color: skyblue;
+}
