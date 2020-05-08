@@ -9,5 +9,89 @@ main {
 		"Trebuchet MS", sans-serif;
 }
 body {
-  background-color: skyblue;
+    background-color: skyblue;
+}
+.firstclass {
+	background-color: rgb(247, 235, 170);
+	height: 40vh;
+}
+.firstcontent {
+	padding-top: 7vh;
+}
+.myhead {
+	font-family: "Rye", cursive;
+	font-size: 40px;
+}
+.akan {
+	font-family: "Rye", cursive;
+	font-size: 70px;
+}
+.akan > span {
+	color: rgb(24, 28, 253);
+}
+.myhead1 {
+	font-size: 60px;
+}
+.howit {
+	font-size: 45px;
+	padding-top: 20px;
+	font-weight: bold;
+	font-family: "Rye", cursive;
+}
+.myform {
+	background-color: rgb(245, 245, 245);
+}
+.mycard {
+	height: 50vh;
+}
+.footer {
+	height: 10vh;
+	background-color: rgb(167, 172, 161);
+}
+.footer p {
+	text-align: center;
+	padding-top: 3vh;
+	font-size: 20px;
+}
+.cardx {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 3vh;
+}
+.cardx > p {
+	font-family: "Rye", cursive;
+	font-size: 30px;
+	color: blue;
+}
+.cardx > p > span {
+	color: gold;
+}
+.myradio {
+	padding-top: 10px;
+}
+.myalert {
+	text-align: center;
+}
+.form-head {
+	text-align: center;
+
+}
+.mybtn {
+	margin-left: 50vh;
+}
+/* MEDIA QUERRY */
+@media only screen and (max-width: 670px) {
+	.myhead {
+		font-size: 20px;
+	}
+	.myhead1 {
+		font-size: 20px;
+	}
+	.howit {
+		font-size: 20px;
+	}
+	.akan {
+		font-size: 20px;
+	}
 }
