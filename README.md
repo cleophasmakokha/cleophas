@@ -9,6 +9,9 @@ It calculates the day of the week in which you were born and gives you the Akan 
 Cleophas Makokha
 https://github.com/cleophasmakokha/cleophas
 
+
+## Project Screenshot
+
 ## Setup Instructions
 
 You should start by :
