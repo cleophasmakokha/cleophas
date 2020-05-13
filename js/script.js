@@ -54,7 +54,10 @@ function allLetters(input){
   input.value = input.value.replace(characters, "");
 }
 
-
+function digits(input){
+  var digits = /[^0-9]/;
+  input.value = input.value.replace(digits, "");
+}
 
 function validYear(){
   var year = document.getElementById('yearBorn').value;
